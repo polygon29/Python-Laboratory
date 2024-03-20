@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2023-07-03T10:24:09.815Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="n4bdLBXuf58LSII2nCN1" version="21.5.2" type="google">
+  <diagram name="Page-1" id="LG6tyhDyxBLL8U90kwAv">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_JcxHDrgoFY7vATUD3AH-1" value="โปรแกรมรับค่าความยาวด้าน 3 ด้านของรูปสามเหลี่ยม ให้ใส่ด้านที่ยาวที่สุดเป็นค่าสุดท้าย แล้วโปรแกรมตรวจสอบว่าเป็นด้านของรูปสามเหลี่ยมมุมฉากหรือไม่" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="46" y="120" width="760" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-1" target="0E9bIYEFvE-wSJ3ZnKy9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-1" value="Start" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="366" y="200" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-2" target="0E9bIYEFvE-wSJ3ZnKy9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-2" value="กำหนด a≤b≤c" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="366" y="280" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-4" target="0E9bIYEFvE-wSJ3ZnKy9-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-4" value="Input a , b , c" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="349" y="360" width="155" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-6" target="0E9bIYEFvE-wSJ3ZnKy9-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-6" target="0E9bIYEFvE-wSJ3ZnKy9-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-6" value="c^2=(a^2)+(b^2)" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="366" y="440" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-8" target="0E9bIYEFvE-wSJ3ZnKy9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-8" value="right triangle = True" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="121" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=16;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-9" target="0E9bIYEFvE-wSJ3ZnKy9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-9" value="right triangle = False" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="561" y="480" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-15" target="0E9bIYEFvE-wSJ3ZnKy9-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-15" target="0E9bIYEFvE-wSJ3ZnKy9-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-15" value="right triangle = True ?" style="rhombus;whiteSpace=wrap;html=1;fontSize=15;" vertex="1" parent="1">
+          <mxGeometry x="346" y="640" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-21" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="306" y="470" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="486" y="470" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-28" target="0E9bIYEFvE-wSJ3ZnKy9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-28" value="This is a right triangle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="81" y="700" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0E9bIYEFvE-wSJ3ZnKy9-29" target="0E9bIYEFvE-wSJ3ZnKy9-34">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-29" value="This is not a right triangle" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="561" y="700" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-32" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="294" y="689" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-33" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="509" y="689" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-34" value="End" style="rounded=1;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="366" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-37" value="Input: a,b,c ที่เป็นความยาวด้านทั้งสามด้าน&lt;br&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; ของรูปสามเลี่ยม&lt;br style=&quot;font-size: 16px;&quot;&gt;Output: This is or is not a right triangle&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;ol style=&quot;font-size: 16px;&quot;&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;a≤b≤c&lt;br style=&quot;font-size: 16px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;input a , b , c&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;if c^2=(a^2)+(b^2)&lt;br style=&quot;font-size: 16px;&quot;&gt;then right triangle = True&lt;br style=&quot;font-size: 16px;&quot;&gt;else right triangle = False&lt;/li&gt;&lt;li style=&quot;font-size: 16px;&quot;&gt;if right triangle = True&lt;br style=&quot;font-size: 16px;&quot;&gt;then This is a right triangle&lt;br style=&quot;font-size: 16px;&quot;&gt;else This is not a right triangle&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="541" y="190" width="300" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="0E9bIYEFvE-wSJ3ZnKy9-39" value="Lab01Asm-A1&amp;nbsp; &amp;nbsp;6610110351 เสฎฐวุฒิ สุภักดี" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="511" y="10" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
